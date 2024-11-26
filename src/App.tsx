@@ -4,31 +4,14 @@ import {
   Routes,
   Route,
   Navigate,
-  useLocation,
-  useNavigate,
 } from "react-router-dom";
 import { Header, Footer } from "@/components";
 import { CvePage, InfoPage, NotFoundPage } from "./pages";
-import { useEffect } from "react";
-
-const RedirectOnReload = () => {
-  const location = useLocation();
-  const navigate = useNavigate();
-
-  useEffect(() => {
-    if (location.pathname !== "/") {
-      navigate("/");
-    }
-  }, []);
-
-  return null;
-};
 
 export const App = () => {
   return (
     <>
       <Router>
-        <RedirectOnReload />
         <Header />
         <Box
           sx={{
