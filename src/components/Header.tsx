@@ -6,7 +6,7 @@ export const Header = () => {
     <AppBar position="static" sx={{ backgroundColor: "black" }}>
       <Toolbar>
         <img
-          src="./src/assets/logo.png"
+          src="/images/logo.png"
           alt="Logo"
           style={{
             marginRight: "10px",
