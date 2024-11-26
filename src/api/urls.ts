@@ -1,4 +1,4 @@
-const BASE_URL = "https://d4-heroku-sv-46383bd0cef9.herokuapp.com/";
+const BASE_URL = "https://d4-heroku-sv-46383bd0cef9.herokuapp.com";
 
 export const cveUrls = {
   all: `${BASE_URL}/get/all`,
